@@ -6,6 +6,7 @@ import streamlit.components.v1 as components
 # >>> fig.write_html('test.html')
 st.set_page_config(layout="wide")
 st.header("My App")
+st.sidebar.header("This is sidebar")
 
 
 HtmlFile = open("index.html", 'r', encoding='utf-8')
